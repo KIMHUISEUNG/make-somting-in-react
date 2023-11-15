@@ -1,6 +1,7 @@
 import React from "react";
 
 const Student = ({ name, dispatch, id, isHere }) => {
+  //console.log("components의 dispatch입니다.", dispatch);
   return (
     <div>
       <span

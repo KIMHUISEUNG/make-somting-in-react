@@ -44,7 +44,7 @@ const initialState = {
 function AttendanceBook() {
   const [name, setName] = useState("");
   const [studentsInfo, dispatch] = useReducer(reducer, initialState);
-
+  //console.log("main의 dispatch 입니다.", dispatch);
   return (
     <div>
       <h1>출석부</h1>
